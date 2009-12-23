@@ -30,6 +30,11 @@ function KVCObject() {
 ;(function($) {
 	$(function() {
 		
+		// layout plugin
+		$('body').layout({ applyDefaultStyles: true });
+		
+		// -----------------------------
+		
 		$checkbox = $('#checkbox');
 		$ping = $('#ping');
 		$pong = $('#pong');
